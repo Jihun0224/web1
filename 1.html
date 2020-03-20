@@ -3,14 +3,23 @@
 <head>
   <title>WEB1 - html</title>
   <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script src="color.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+  nightdayHandler(this);
+  ">
+  <div id="grid">
   <ol>
         <li> <a href="1.html">HTML</a><br></li>
         <li> <a href="2.html">CSS</a><br></li>
         <li> <a href="3.html">javaScript</a><br></li>
       </ol>
+<div id="artice">
 
       <h2>HTML이란 무엇인가?</h2>
       <strong>2020.02.19 <a href="https://www.w3.org/TR/html51/" target="_blank">
@@ -19,19 +28,12 @@
       from a web server or from local storage and render them into multimedia web pages.
       HTML describes the structure of a web page semantically and originally included cues
       for the appearance of the document.
-      공부시작 web2까지 성실하게 해보자
-      <br><br><br>줄바꾸는 테그
-      <p>
-      This paragraph
-      contains a lot of lines
-      in the source code,
-      but the browser
-      ignores it.
-      </p>
-      <img src="coding.jpg" width="100%">
+    </div>
+  </div>
+      <img src="coding.jpg" width=300px>
       <p stlye="margin-top:45px;">
     </p>
-    <!--Start of Tawk.to Script-->
+
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -43,6 +45,5 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
-<!--End of Tawk.to Script-->
   </body>
 </html>
